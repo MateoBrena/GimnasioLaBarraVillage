@@ -1,8 +1,13 @@
 # Sistema de Gestión Integral – La Barra Village 🏋️‍♂️
 
-Plataforma web Full-Stack desarrollada a medida para la administración digital, control de accesos y reserva de clases del gimnasio de un barrio cerrado. 
+Plataforma web Full-Stack desarrollada a medida para la administración digital, control de accesos y reserva de clases del gimnasio exclusivo de un barrio cerrado. 
 
 El sistema centraliza la operación del espacio logrando prescindir de registros manuales y optimizando la convivencia comunitaria. Actualmente se encuentra en producción con **~165 usuarios activos** en sus primeros días de lanzamiento.
+
+<p align="center">
+  <b>Portal de Acceso / Inicio de Sesión</b><br>
+  <img src="Assets-GLBV/login.png" alt="Pantalla de Login" width="750px" style="margin-top: 10px; border: 1px solid #eaeaea; border-radius: 4px;"/>
+</p>
 
 ---
 
@@ -10,11 +15,13 @@ El sistema centraliza la operación del espacio logrando prescindir de registros
 
 ### 📱 Módulo de Usuarios / Residentes
 - **Acceso Inteligente por QR:** Registro automatizado de entradas y salidas de las instalaciones mediante el escaneo de códigos QR individuales desde el dispositivo móvil.
+- **Rutinas Digitales:** Consulta y seguimiento de planes de entrenamiento personalizados directamente desde la app, eliminando por completo el uso de las tradicionales fichas físicas de papel.
 - **Concurrencia en Tiempo Real:** Visualización en vivo del aforo actual del gimnasio para que los residentes puedan planificar su visita y evitar horarios de alta densidad.
 - **Cronograma y Reservas:** Consulta del calendario semanal de clases y sistema de reserva de cupos para optimizar la capacidad del lugar.
 - **Gestión de Invitados:** Módulo para pre-autorizar el ingreso de visitas temporales a las instalaciones de forma segura.
 
 ### 💼 Módulo de Administración, Auditoría y Analíticas
+- **Asignación y Gestión de Rutinas:** Panel técnico para que los profesores/administradores creen, editen y asignen planes de entrenamiento digitales a los perfiles de los usuarios de forma personalizada.
 - **Control Global de Usuarios y Clases:** Altas, bajas y modificación de perfiles de residentes autorizados, junto con la gestión de horarios y cupos disponibles.
 - **Asistencia Automatizada:** Toma de asistencia automática a las clases en base a las reservas vigentes y los registros de acceso.
 - **Centro de Avisos y Novedades:** Canal de comunicación directa dentro de la app para notificar de manera inmediata cambios de horarios, reformas o noticias importantes.
@@ -28,7 +35,7 @@ El sistema centraliza la operación del espacio logrando prescindir de registros
 ---
 
 ## ⚙️ Arquitectura de Negocio Especializada
-> **Nota de Diseño:** A diferencia de un gimnasio comercial convencional, el sistema está adaptado a las dinámicas de un barrio privado. Toda la gestión de cobros y membresías se unifica de manera externa mediante las expensas de la administración central. Esto permitió enfocar la arquitectura del software puramente en la **experiencia de usuario (UX), el control de accesos, la analítica de datos y la optimización operativa de los espacios comunes.**
+> **Nota de Diseño:** A diferencia de un gimnasio comercial convencional, el sistema está adaptado a las dinámicas de un barrio privado. Toda la gestión de cobros y membresías es gestionada de manera externa mediante las expensas de la administración central. Esto permitió enfocar la arquitectura del software puramente en la **experiencia de usuario (UX), la digitalización de procesos (rutinas y accesos), la analítica de datos y la optimización operativa de los espacios comunes.**
 
 ---
 
@@ -38,10 +45,12 @@ El sistema centraliza la operación del espacio logrando prescindir de registros
 - **Backend & Base de Datos:** Supabase (PostgreSQL) para el modelado relacional de datos, persistencia, procesamiento de agregaciones estadísticas y autenticación robusta.
 - **Despliegue:** Vercel, garantizando alta disponibilidad y estabilidad en producción.
 
+---
+
 ## 📸 Vista Previa del Sistema
 
 ### 📱 Experiencia del Residente (Mobile-First)
-Para garantizar la comodidad del usuario, toda la interfaz del cliente fue diseñada y optimizada para dispositivos móviles.
+Para garantizar la comodidad del usuario, toda la interfaz del cliente fue diseñada y optimizada para dispositivos móviles en una cuadrícula simétrica.
 
 <table>
   <tr>
@@ -54,13 +63,14 @@ Para garantizar la comodidad del usuario, toda la interfaz del cliente fue dise�
     <td><p align="center"><b>Listado de Rutinas</b></p><img src="Assets-GLBV/usuario-rutinas.png" alt="Rutinas" height="420px" width="100%" style="object-fit: cover; object-position: top;"></td>
     <td><p align="center"><b>Detalle de Ejercicio</b></p><img src="Assets-GLBV/usuario-entrenamiento.png" alt="Entrenamiento" height="420px" width="100%" style="object-fit: cover; object-position: top;"></td>
   </tr>
-  <tr>
-    <td colspan="3">
-      <p align="center"><b>Historial Personal de Accesos</b></p>
-      <img src="Assets-GLBV/usuario-historial.png" alt="Historial" height="300px" width="100%" style="object-fit: cover; object-position: top;">
-    </td>
-  </tr>
 </table>
+
+<br>
+
+<p align="center">
+  <b>Historial Personal de Accesos (Vista Móvil)</b><br>
+  <img src="Assets-GLBV/usuario-historial.png" alt="Historial" width="280px" style="margin-top: 10px; border-radius: 8px;"/>
+</p>
 
 ---
 
@@ -68,15 +78,8 @@ Para garantizar la comodidad del usuario, toda la interfaz del cliente fue dise�
 Vistas del panel de control web utilizado por los profesores y la administración para monitorear el gimnasio, gestionar rutinas y auditar los datos.
 
 <p align="center">
-  <b>Pantalla de Inicio de Sesión (Portal de Acceso)</b><br>
-  <img src="Assets-GLBV/login.png" alt="Pantalla de Login" width="750px" style="margin-top: 10px; border: 1px solid #eaeaea; border-radius: 4px;"/>
-</p>
-
-<br>
-
-<p align="center">
   <b>Panel de Control Principal (Administración General)</b><br>
-  <img src="Assets-GLBV/panel-admin.png" alt="Panel de Control Principal Admin" width="850px" style="margin-top: 10px; border-radius: 4px Papel;"/>
+  <img src="Assets-GLBV/panel-admin.png" alt="Panel de Control Principal Admin" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
 </p>
 
 <br>
