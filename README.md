@@ -41,33 +41,42 @@ El sistema centraliza la operación del espacio logrando prescindir de registros
 ## 📸 Vista Previa del Sistema
 
 ### 📱 Experiencia del Residente (Mobile-First)
-Para garantizar la comodidad del usuario, toda la interfaz del cliente fue diseñada pensando en dispositivos móviles.
+Para garantizar la comodidad del usuario, toda la interfaz del cliente fue diseñada y optimizada para dispositivos móviles.
 
-<p align="center">
-  <img src="Assets-GLBV/login.png" alt="Pantalla de Login" width="220px" style="margin: 5px;"/>
-  <img src="Assets-GLBV/usuario-menu-lateral.png" alt="Menú Lateral" width="220px" style="margin: 5px;"/>
-  <img src="Assets-GLBV/usuario-principal.png" alt="Dashboard Principal y QR" width="220px" style="margin: 5px;"/>
-</p>
-
-<p align="center">
-  <img src="Assets-GLBV/usuario-perfil.png" alt="Perfil del Usuario" width="220px" style="margin: 5px;"/>
-  <img src="Assets-GLBV/usuario-clases.png" alt="Reserva de Clases" width="220px" style="margin: 5px;"/>
-  <img src="Assets-GLBV/usuario-rutinas.png" alt="Listado de Rutinas" width="220px" style="margin: 5px;"/>
-</p>
-
-<p align="center">
-  <img src="Assets-GLBV/usuario-entrenamiento.png" alt="Detalle de Entrenamiento" width="220px" style="margin: 5px;"/>
-  <img src="Assets-GLBV/usuario-historial.png" alt="Historial de Accesos" width="220px" style="margin: 5px;"/>
-</p>
+<table>
+  <tr>
+    <td width="33.3%"><p align="center"><b>Menú Lateral</b></p><img src="Assets-GLBV/usuario-menu-lateral.png" alt="Menú Lateral" height="420px" width="100%" style="object-fit: cover; object-position: top;"></td>
+    <td width="33.3%"><p align="center"><b>Dashboard y QR</b></p><img src="Assets-GLBV/usuario-principal.png" alt="Dashboard Principal" height="420px" width="100%" style="object-fit: cover; object-position: top;"></td>
+    <td width="33.3%"><p align="center"><b>Perfil de Usuario</b></p><img src="Assets-GLBV/usuario-perfil.png" alt="Perfil" height="420px" width="100%" style="object-fit: cover; object-position: top;"></td>
+  </tr>
+  <tr>
+    <td><p align="center"><b>Reserva de Clases</b></p><img src="Assets-GLBV/usuario-clases.png" alt="Clases" height="420px" width="100%" style="object-fit: cover; object-position: top;"></td>
+    <td><p align="center"><b>Listado de Rutinas</b></p><img src="Assets-GLBV/usuario-rutinas.png" alt="Rutinas" height="420px" width="100%" style="object-fit: cover; object-position: top;"></td>
+    <td><p align="center"><b>Detalle de Ejercicio</b></p><img src="Assets-GLBV/usuario-entrenamiento.png" alt="Entrenamiento" height="420px" width="100%" style="object-fit: cover; object-position: top;"></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <p align="center"><b>Historial Personal de Accesos</b></p>
+      <img src="Assets-GLBV/usuario-historial.png" alt="Historial" height="300px" width="100%" style="object-fit: cover; object-position: top;">
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 💼 Panel de Administración, Analíticas y Gestión (Desktop)
-Vistas del panel de control web utilizado por los profesores y la administración para monitorear el gimnasio y auditar los datos.
+Vistas del panel de control web utilizado por los profesores y la administración para monitorear el gimnasio, gestionar rutinas y auditar los datos.
+
+<p align="center">
+  <b>Pantalla de Inicio de Sesión (Portal de Acceso)</b><br>
+  <img src="Assets-GLBV/login.png" alt="Pantalla de Login" width="750px" style="margin-top: 10px; border: 1px solid #eaeaea; border-radius: 4px;"/>
+</p>
+
+<br>
 
 <p align="center">
   <b>Panel de Control Principal (Administración General)</b><br>
-  <img src="Assets-GLBV/panel-admin.png" alt="Panel de Control Principal Admin" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
+  <img src="Assets-GLBV/panel-admin.png" alt="Panel de Control Principal Admin" width="850px" style="margin-top: 10px; border-radius: 4px Papel;"/>
 </p>
 
 <br>
@@ -75,7 +84,7 @@ Vistas del panel de control web utilizado por los profesores y la administració
 <table>
   <tr>
     <td width="50%">
-      <p align="center"><b>Dashboard de Informes y Estadísticas (Métricas de Aforo)</b></p>
+      <p align="center"><b>Dashboard de Informes y Estadísticas (Aforo)</b></p>
       <img src="Assets-GLBV/panel-admin-informes-1.png" alt="Informes de Concurrencia 1" width="100%">
     </td>
     <td width="50%">
