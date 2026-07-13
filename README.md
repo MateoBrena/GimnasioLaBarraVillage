@@ -37,3 +37,70 @@ El sistema centraliza la operación del espacio logrando prescindir de registros
 - **Estilos:** Tailwind CSS para una interfaz moderna, limpia y completamente responsive (Mobile-First).
 - **Backend & Base de Datos:** Supabase (PostgreSQL) para el modelado relacional de datos, persistencia, procesamiento de agregaciones estadísticas y autenticación robusta.
 - **Despliegue:** Vercel, garantizando alta disponibilidad y estabilidad en producción.
+
+## 📸 Vista Previa del Sistema
+
+### 📱 Experiencia del Residente (Mobile-First)
+Para garantizar la comodidad del usuario, toda la interfaz del cliente fue diseñada pensando en dispositivos móviles.
+
+<p align="center">
+  <img src="assets/login.png" alt="Pantalla de Login" width="220px" style="margin: 5px;"/>
+  <img src="assets/usuario-menu-lateral.png" alt="Menú Lateral" width="220px" style="margin: 5px;"/>
+  <img src="assets/usuario-principal.png" alt="Dashboard Principal y QR" width="220px" style="margin: 5px;"/>
+</p>
+
+<p align="center">
+  <img src="assets/usuario-perfil.png" alt="Perfil del Usuario" width="220px" style="margin: 5px;"/>
+  <img src="assets/usuario-clases.png" alt="Reserva de Clases" width="220px" style="margin: 5px;"/>
+  <img src="assets/usuario-rutinas.png" alt="Listado de Rutinas" width="220px" style="margin: 5px;"/>
+</p>
+
+<p align="center">
+  <img src="assets/usuario-entrenamiento.png" alt="Detalle de Entrenamiento" width="220px" style="margin: 5px;"/>
+  <img src="assets/usuario-historial.png" alt="Historial de Accesos" width="220px" style="margin: 5px;"/>
+</p>
+
+---
+
+### 💼 Panel de Administración, Analíticas y Gestión (Desktop)
+Vistas del panel de control web utilizado por los profesores y la administración para monitorear el gimnasio y auditar los datos.
+
+<p align="center">
+  <b>Panel de Control Principal (Administración General)</b><br>
+  <img src="assets/panel-admin.png" alt="Panel de Control Principal Admin" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
+</p>
+
+<br>
+
+<table>
+  <tr>
+    <td width="50%">
+      <p align="center"><b>Dashboard de Informes y Estadísticas (Métricas de Aforo)</b></p>
+      <img src="assets/panel-admin-informes-1.png" alt="Informes de Concurrencia 1" width="100%">
+    </td>
+    <td width="50%">
+      <p align="center"><b>Distribución de Entrenamiento y Permanencia</b></p>
+      <img src="assets/panel-admin-informes-2.png" alt="Informes de Concurrencia 2" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p align="center"><b>Control y Auditoría de Residentes</b></p>
+      <img src="assets/panel-admin-residentes.png" alt="Gestión de Residentes" width="100%">
+    </td>
+    <td>
+      <p align="center"><b>Historial General de Entradas y Salidas</b></p>
+      <img src="assets/panel-admin-historial.png" alt="Historial Administrativo" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p align="center"><b>Gestión y Planificación de Clases Semanales</b></p>
+      <img src="assets/panel-admin-clases.png" alt="Gestión de Clases" width="100%">
+    </td>
+    <td>
+      <p align="center"><b>Asignación Digital de Ejercicios y Rutinas</b></p>
+      <img src="assets/panel-admin-ejercicios.png" alt="Gestión de Ejercicios" width="100%">
+    </td>
+  </tr>
+</table>
