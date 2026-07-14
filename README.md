@@ -84,35 +84,42 @@ Vistas del panel de control web utilizado por los profesores y la administració
 
 <br>
 
-<table>
-  <tr>
-    <td width="50%">
-      <p align="center"><b>Dashboard de Informes y Estadísticas (Aforo)</b></p>
-      <img src="Assets-GLBV/panel-admin-informes-1.png" alt="Informes de Concurrencia 1" width="100%">
-    </td>
-    <td width="50%">
-      <p align="center"><b>Distribución de Entrenamiento y Permanencia</b></p>
-      <img src="Assets-GLBV/panel-admin-informes-2.png" alt="Informes de Concurrencia 2" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p align="center"><b>Control y Auditoría de Residentes</b></p>
-      <img src="Assets-GLBV/panel-admin-residentes.png" alt="Gestión de Residentes" width="100%">
-    </td>
-    <td>
-      <p align="center"><b>Historial General de Entradas y Salidas</b></p>
-      <img src="Assets-GLBV/panel-admin-historial.png" alt="Historial Administrativo" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p align="center"><b>Gestión y Planificación de Clases Semanales</b></p>
-      <img src="Assets-GLBV/panel-admin-clases.png" alt="Gestión de Clases" width="100%">
-    </td>
-    <td>
-      <p align="center"><b>Asignación Digital de Ejercicios y Rutinas</b></p>
-      <img src="Assets-GLBV/panel-admin-ejercicios.png" alt="Gestión de Ejercicios" width="100%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <b>Dashboard de Informes y Estadísticas (Aforo)</b><br>
+  <img src="Assets-GLBV/panel-admin-informes-1.png" alt="Informes de Concurrencia 1" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
+</p>
+
+<br>
+
+<p align="center">
+  <b>Distribución de Entrenamiento y Permanencia</b><br>
+  <img src="Assets-GLBV/panel-admin-informes-2.png" alt="Informes de Concurrencia 2" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
+</p>
+
+<br>
+
+<p align="center">
+  <b>Control y Auditoría de Residentes</b><br>
+  <img src="Assets-GLBV/panel-admin-residentes.png" alt="Gestión de Residentes" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
+</p>
+
+<br>
+
+<p align="center">
+  <b>Historial General de Entradas y Salidas</b><br>
+  <img src="Assets-GLBV/panel-admin-historial.png" alt="Historial Administrativo" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
+</p>
+
+<br>
+
+<p align="center">
+  <b>Gestión y Planificación de Clases Semanales</b><br>
+  <img src="Assets-GLBV/panel-admin-clases.png" alt="Gestión de Clases" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
+</p>
+
+<br>
+
+<p align="center">
+  <b>Asignación Digital de Ejercicios y Rutinas</b><br>
+  <img src="Assets-GLBV/panel-admin-ejercicios.png" alt="Gestión de Ejercicios" width="850px" style="margin-top: 10px; border-radius: 4px;"/>
+</p>
